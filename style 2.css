@@ -1,0 +1,64 @@
+#first{
+    text-align: center;
+    border:2px solid black;
+    background: white;
+}
+#second{
+    border:1px solid black;
+    background: white;
+    margin: 2.5%;
+    width: 95%;
+    text-indent: 2.5%;
+}
+#third{
+    border: 2px solid black;
+    text-align: center;
+    background: white;
+}
+#container1{
+    display:flex;
+    flex-direction: row;
+    gap:10%;
+}
+#nav{
+    display: flex;
+    border-top: 1px solid black;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20%;
+    background: rgb(202, 200, 200);
+}
+#project1{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 12.5%;
+}
+.box1{
+    border:1px solid black;
+    width: 35%;
+    margin-inline-start: 25%;
+    text-align: center;
+    font-size: 120%;
+}
+h1{
+    position: top;
+    font-family: 'Times New Roman', Times, serif;
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url("https://i.imgur.com/Cjp6PuC.jpeg");
+}
+a:link{
+    text-decoration: solid blue;
+}
+a:visited{
+    text-decoration: solid purple;
+    text-decoration: underline;
+}
+a:hover{
+    text-decoration: underline;
+}
